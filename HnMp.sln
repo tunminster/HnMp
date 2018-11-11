@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HnMp.Web", "HnMp.Web\HnMp.Web.csproj", "{3133CCBE-2578-4F68-8202-A58573985787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HnMp.Web", "HnMp.Web\HnMp.Web.csproj", "{3133CCBE-2578-4F68-8202-A58573985787}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HnMp.Model", "HnMp.Model\HnMp.Model.csproj", "{24AC3C6E-A395-46DC-ADDA-B1648940CDA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HnMp.Database", "HnMp.Database\HnMp.Database.csproj", "{6C0AFD00-FEF4-4DA6-9A3D-8A7D71796B5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3133CCBE-2578-4F68-8202-A58573985787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3133CCBE-2578-4F68-8202-A58573985787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3133CCBE-2578-4F68-8202-A58573985787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AC3C6E-A395-46DC-ADDA-B1648940CDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AC3C6E-A395-46DC-ADDA-B1648940CDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AC3C6E-A395-46DC-ADDA-B1648940CDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AC3C6E-A395-46DC-ADDA-B1648940CDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0AFD00-FEF4-4DA6-9A3D-8A7D71796B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0AFD00-FEF4-4DA6-9A3D-8A7D71796B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0AFD00-FEF4-4DA6-9A3D-8A7D71796B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0AFD00-FEF4-4DA6-9A3D-8A7D71796B5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
